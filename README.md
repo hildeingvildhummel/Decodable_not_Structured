@@ -40,7 +40,7 @@ project/
         ├── train/
         └── test/
 ```
-## ⚠️ load_train_data_loader, load_test_data_loader, and feature extractors (e.g. prediction_BEATS) are assumed to be implemented elsewhere in the project.
+## ⚠️ Assumed is that the embeddings of the bioacoustic models are already extracted using: https://github.com/bioacoustic-ai/bacpipe
 
 ## 🚀 Usage
 ### Basic command (unsupervised only)

@@ -138,6 +138,26 @@ Implement a prediction_<MODEL>() function.
 
 Register it inside the extract_features() function in main.py.
 
+## 📂 Datasets
+
+This project has been evaluated on the following publicly available underwater acoustic datasets:
+
+### DeepShip
+- **Description:** Large-scale underwater acoustic dataset for ship classification, covering multiple vessel types and recording conditions.
+- **Access:** https://github.com/irfankamboh/DeepShip
+- **Paper:**  
+  K. Irfan et al., *DeepShip: A Large-Scale Underwater Acoustic Benchmark Dataset*, IEEE OCEANS 2018.
+
+### ShipsEar
+- **Description:** Real-world underwater acoustic recordings of ships and ambient noise, collected in the port of Vigo, Spain.
+- **Access:** https://atlanttic.uvigo.es/underwaternoise/ships-ear/
+- **Paper:**  
+  M. Santos-Domínguez et al., *ShipsEar: An Underwater Vessel Noise Database*, Applied Acoustics, 2016.
+
+> ⚠️ **Note:**  
+> Please refer to the original dataset websites for licensing terms and usage restrictions.  
+> Some datasets may require registration or approval for access.
+
 ## 🔍 Notes & Best Practices
 
 - Always use absolute paths for datasets to avoid silent errors

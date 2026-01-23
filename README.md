@@ -146,7 +146,7 @@ This project has been evaluated on the following publicly available underwater a
 - **Description:** Large-scale underwater acoustic dataset for ship classification, covering multiple vessel types and recording conditions.
 - **Access:** https://github.com/irfankamboh/DeepShip
 - **Paper:**  
-  K. Irfan et al., *DeepShip: A Large-Scale Underwater Acoustic Benchmark Dataset*, IEEE OCEANS 2018.
+  K. Irfan et al., *DeepShip: A Large-Scale Underwater Acoustic Benchmark Dataset*, Expert Systems with Applications 2021.
 
 ### ShipsEar
 - **Description:** Real-world underwater acoustic recordings of ships and ambient noise, collected in the port of Vigo, Spain.

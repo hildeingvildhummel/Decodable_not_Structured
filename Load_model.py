@@ -277,7 +277,7 @@ def prediction_Data2vec(test_dir):
         inputs = processor(batch, return_tensors="pt", padding=True, sampling_rate=16000)
         batch = inputs['input_values'].squeeze(0)
         result = model(batch)
-        results.extend(torch.flatten(result['extract_features'], start_dim=1).detach().numpy())
+        results.extend(result.last_hidden_state.mean(dim=1).detach().numpy())
         labels.extend(label.cpu().detach().numpy())
         recordings.extend(list(recording))
         timestamps.extend(start_time.cpu().detach().numpy())
